@@ -120,8 +120,6 @@ export default{
         this.form.troubleSource = `故障名称:${this.propRow.EAF_NAME ? this.propRow.EAF_NAME : ''}\n发生时间:${this.propRow.RMD_OCCURTIME_STR ? this.propRow.RMD_OCCURTIME_STR : ''}\n故障描述:${this.propRow.RMD_TROUBLE_DESC ? this.propRow.RMD_TROUBLE_DESC : ''}\n`
         this.form.troubleId = this.propRow.EAF_ID
       }
-      // this.form.source = ''
-      // this.form.source += '故障名称:' + (this.propRow.EAF_NAME ? this.propRow.EAF_NAME : '') + '\n'+ '发生时间:' + (this.propRow.RMD_OCCURTIME_STR ? this.propRow.RMD_OCCURTIME_STR : '') + '\n'+ '故障描述:' + (this.propRow.RMD_TROUBLE_DESC ? this.propRow.RMD_TROUBLE_DESC : '') + '\n'
     },
     // 加载设备类型
     loadTroubleType () {
