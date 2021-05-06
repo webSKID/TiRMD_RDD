@@ -17,7 +17,7 @@
   "dependencies": {
     "echarts": "^4.1.0",
     "element-ui": "^2.5.4",
-    "highcharts": "^7.0.3",
+    "highcharts": "^9.0.0",
     "js-cookie": "^2.2.0",
     "manba": "^1.2.8",
     "vue": "^2.5.2",
